@@ -1,0 +1,197 @@
+:root{
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*font-family: ;*/
+}
+/*modif du header*/
+.header{
+    background: brown;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+    padding: 0 20%;
+    z-index: 100px;
+    height: 8%;
+}
+/*modif de limage du header*/
+img{
+    display: flex;
+    /* width: 100px;
+    height: 50px; */
+}
+/*modif de lelement parent ul*/
+.navHeader ul{
+ display: flex;
+}
+/*modif de l'element enfant ul li*/
+.navHeader ul li{
+    list-style: none;
+margin-left: 50px;
+}
+/*modif de l'element petit enfant ul li a*/
+.navHeader ul li a{
+    color: white;
+    text-decoration: none;
+    transform: 0.3s;
+}
+/*modif de ul li a afin de donner la couleur aux elements lorquon met le cursu sur un menu pour le selectionner*/
+.navHeader ul li a:hover{
+    color: blue;
+}
+
+.mainHome{
+    background: yellow;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    height: 100vh;
+    padding: 0 10%;
+    /*margin-top: 70px;*/
+}
+
+
+.mainSection{
+/* background: rgb(150, 54, 100); */
+max-width: 80%;
+height: 60vh;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin: 0 10%;
+padding-top: 50px;
+}
+
+.sousDiv1{
+/* background: green; */
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 25vh;
+}
+
+.imgH1{
+    margin: 30px;
+}
+
+.sousDiv2{
+/* background: white; */
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+max-width: 1000px;
+}
+.p1{
+    padding: 30px;
+}
+
+.cardSection{
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          background: transparent;
+          /* margin: 0 10%; */
+          flex-wrap: wrap;
+          
+}
+/* .cardSection .divTotal{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+} */
+
+.divCard1{
+   margin: 10px;
+   background: white;
+   transition: box-shadow 0.3s;
+   border-radius: 8px;
+   } 
+
+.divCard1:hover{
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+
+}
+.cardSection p{
+color: blue;
+}
+
+.pCard{
+display: flex;
+justify-content: space-between;
+margin: 10px;
+align-items: center;
+
+}
+
+/* .btnText{
+    font-size: 10px;
+} */
+button[type="submit"]{
+    font-size: 12px;
+    background: blue;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    color: white;
+}
+
+.section7{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 10% 10px; */
+   flex-direction: column;
+   padding: 20px;
+height: 70vh;
+
+}
+
+.section7 h2{
+    text-align: center;
+    font-family: 'Work Sans',Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+}
+
+.btn7{
+    font-size: 12px;
+    background: blue;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    color: white;
+}
+
+.footer{
+    background: #eef2f2;
+    position: fixed;
+    /* z-index: 1; */
+    bottom: 0;
+    width: 100%;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    border-top: 1px solid #eef2f2;
+    padding: 1em 0;
+  
+}
+.footer a{
+    text-decoration: none;
+}
+.footer::after ::before{
+    box-sizing: inherit;
+}
