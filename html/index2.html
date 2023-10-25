@@ -1,25 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Point_de_controle3</title>
-    <link rel="stylesheet" href="/css/styles1.css" />
-  </head>
-  <body>
-    <!--creation du header-->
-    <header class="header">
-      <img src="/images/logogroup.svg" alt="logo" class="logo" width="150px" height="100px" />
-      <nav class="header">
-        <ul>
-          <li>
-            <a href="#">A propos de nous</a>
-          </li>
-          <li><a href="#">Carriere</a></li>
-          <li><a href="#">Departement</a></li>
-        </ul>
-      </nav>
-    </header>
 
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Point_de_controle3</title>
+  <link rel="stylesheet" href="/css/styles1.css" />
+</head>
+
+<body>
+  <!--creation du header-->
+  <header class="header">
+    <img src="/images/logogroup.svg" class="logo" width="150px" height="100px" />
+    <nav class="navHeader">
+      <ul>
+        <li>
+          <a href="#">A propos de nous</a>
+        </li>
+        <li><a href="#">Carriere</a></li>
+        <li><a href="#">Departement</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!--creation du main-->
+  <main class="mainHome">
+    <!--creation section1-->
+    <section class="mainSection1">
+      <div class="mainDiv">
+        <div class="mainImg1">
+          <img src="/images/logo2.png" alt="logo2" class="logo2" />
+        </div>
+        <!--insertion dun h1-->
+        <div class="imgH1">
+          <h1>Rendre l'expérience de soins plus humaine</h1>
+        </div>
+
+        <!--insertion de 2 paragraphes en 2 colonnes-->
+        <div class="imgH2">
+          <div class="p1">
+            <p>
+              Nous voulons que les patients trouvent le médecin idéal et
+              prennent rendez-vous de la manière la plus simple possible. Le
+              parcours du patient doit être agréable, et c'est pourquoi nous
+              sommes toujours à ses côtés: pour l'aider à trouver les meilleurs
+              soins possibles. N'importe quand n'importe où.
+            </p>
+          </div>
+          <div class="p1">
+            <p>
+              Nous aidons également les médecins à mieux gérer leur pratique et
+              à bâtir leur réputation en ligne. Grâce à notre solution intégrée
+              de bout en bout, les médecins peuvent non seulement améliorer leur
+              présence en ligne, mais également consacrer leur temps à ce qui
+              compte vraiment: leurs patients.
+            </p>
+          </div>
+    </section>
+
+    <section class="mainSection2">
+      <div class="mainCard">
+        <div class=" card1 cardItems">
+          <!--insertion de la card1 patient-->
+          <div class="sousDiv">
+          <img src="/images/icon-patients1.svg" alt="patient" id="img" />
+          <h1>Pour les patients</h1>
+          <h2>
+            Trouvez un médecin, réservez une visite et résolvez tout doute lié à
+            la santé
+          </h2>
+        </div>
+          <div class="divPays">
+            <select name="selPyas"   id="select">
+              <option value="">
+                <font>Choisissez un pays </font>
+              </option>
+              <option value="argentine">Argentine</option>
+              <option value="brésil">Brésil</option>
+              <option value="chili">Chili</option>
+              <option value="colombie">Colombie</option>
+              <option value="tchèque">Tchèque</option>
+              <option value="allemagne">Allemagne</option>
+              <option value="italie">Italie</option>
+              <option value="mexique">Mexique</option>
+              <option value="perou">Perou</option>
+              <option value="pologne">Pologne</option>
+              <option value="portugal">Portugal</option>
+              <option value="espagne">Espagne</option>
+              <option value="turquie">Turquie</option>
+            </select>
+          </div>
+        </div>
+        <!--insertion de la caard 2 medecin-->
+        <div class=" card2 cardItems">
+          <div class="sousDiv">
+          <img src="/images/icon-doctors1.svg" alt="medecin" id="img" />
+          <h1>Pour les médecins</h1>
+          <h2>
+            Gagnez du temps dans la gestion des visites et réduisez de moitié
+            les non-présentations
+          </h2>
+        </div>
+          <div class="divPays">
+            <select name="selPays" id="select">
+              <option value="">
+                <font>Choisissez un pays </font>
+              </option>
+              <option value="Argentine"></option>
+              <option value="Brésil"></option>
+              <option value="Chili"></option>
+              <option value="Colombie"></option>
+              <option value="Tchèque"></option>
+              <option value="Allemagne"></option>
+              <option value="Italie"></option>
+              <option value="Mexique"></option>
+              <option value="Perou"></option>
+              <option value="Pologne"></option>
+              <option value="Portugal"></option>
+              <option value="Espagne"></option>
+              <option value="Turquie"></option>
+            </select>
+          </div>
+        </div>
+        <!--insertion de la card 3 clinique-->
+        <div class=" card3 cardItems">
+          <div class="sousDiv">
+          <img src="/images/icon-clinics1.svg" alt="clinique" id="img" />
+          <h1>Pour les cliniques</h1>
+          <h2>
+            Offrez une expérience patient exceptionnelle dans votre clinique
+          </h2>
+        </div>
+          <div class="divPays">
+            <select name="selPyas" id="select">
+              <option value="">
+                <font>2 à 20 spécialistes </font>
+              </option>
+              <option value="Argentine"></option>
+              <option value="Brésil"></option>
+              <option value="Chili"></option>
+              <option value="Colombie"></option>
+              <option value="Tchèque"></option>
+              <option value="Allemagne"></option>
+              <option value="Italie"></option>
+              <option value="Mexique"></option>
+              <option value="Perou"></option>
+              <option value="Pologne"></option>
+              <option value="Portugal"></option>
+              <option value="Espagne"></option>
+              <option value="Turquie"></option>
+            </select>
+          </div>
+          <div class="divPays">
+            <select id="select">
+              <option value="">
+                <font>plus de 20 spécialistes </font>
+              </option>
+              <option value="Argentine"></option>
+              <option value="Brésil"></option>
+              <option value="Chili"></option>
+              <option value="Colombie"></option>
+              <option value="Tchèque"></option>
+              <option value="Allemagne"></option>
+              <option value="Italie"></option>
+              <option value="Mexique"></option>
+              <option value="Perou"></option>
+              <option value="Pologne"></option>
+              <option value="Portugal"></option>
+              <option value="Espagne"></option>
+              <option value="Turquie"></option>
+            </select>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+  <footer>
+
+  </footer>
+</body>
+
 </html>

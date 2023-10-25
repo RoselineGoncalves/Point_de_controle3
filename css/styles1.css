@@ -127,7 +127,7 @@
 }
 
 .header{
-    background: #0dcaf0;
+    background: var(--bs-black);
     position: fixed;
     width: 100%;
     display: flex;
@@ -138,15 +138,154 @@
     padding: 0 20%;
 }
 
+.logo{
+    width: 150px;
+    height: 100px;
+    }
+
 .navHeader ul{
-    margin: 10px;
+    display: flex;
+    
 }
 
 .navHeader ul li{
     list-style: none;
+    margin-left: 70px;
 }
 
 .navHeader ul li a{
     text-decoration: none;
     color: white;
 }
+
+.navHeader ul li a:hover{
+    color: var(--bs-blue);
+}
+
+/*insertion du code css pour le positionnement de la class mainSection1*/
+.mainSection1{
+    background: rgb(150, 54, 100);
+    max-width: 80%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 10%;
+    padding-top: 50px;
+    }
+    
+    .mainImg1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25vh;
+    padding-top: 30px;
+    }
+    
+    .imgH1{
+        margin: 30px;
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .imgH2{
+       display: flex;
+       max-width: 1000px;
+    }
+    .p1{
+        padding: 30px;
+    }
+
+
+    /*mise en forme de la section .mainSection2*/
+    .mainSection2{
+        background: var(--bs-blue);
+        /* display: flex;
+        justify-content: center;  */
+        
+        }
+    /*mise en forme de la classe enfant cardItems pour agir sur tous les enfants*/
+    /* .mainSection2 .mainCard{
+        display: flex;
+        border-radius: 8px;
+    flex-direction: row;
+    margin: 10px;        
+    } */
+
+    
+    /*mise en forme de la classe enfant card1*/
+    .card1{
+        background: var(--bs-green);
+        
+    }
+
+    .card2{
+        background: var(--bs-primary-border-subtle);
+    }
+
+    .card3{
+        background: var(--bs-black);
+    }
+    
+    /*mise en forme des h1*/
+    .mainSection2 .mainCard h1{
+        color: white;
+        font-weight: bold;
+        /* margin: 30px; */
+    }
+
+    /*mise en forme des h2*/
+    .mainSection2 .mainCard h2{
+        color: white;
+        /* margin: 50px; */
+
+    }
+    .mainCard{
+        display: flex;
+     max-width: 80%;
+     background: var(--bs-yellow);
+     /* align-items: center; */
+     margin: 10px 10%;
+     justify-content: space-evenly;
+     padding: 10px;
+    }
+    .mainCard .cardItems{
+        width: 300px;
+        height: 350px;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2%;
+         }
+
+    #img{
+        width: 50px;
+        height: 40px;
+        margin-bottom: 10px;
+    }
+    .sousDiv{
+       display: flex;
+       flex-direction: column;
+       margin-bottom: 40px;
+    }
+
+    .sousDiv h1{
+        margin-bottom: 15px;
+    }
+    
+    #select{
+        background: transparent;
+        color: white;
+        text-decoration: underline;
+        font-size: 18px;
+        border: none;
+        margin-bottom: 15px;
+    }
+    #select option{
+        color: var(--bs-black);
+        
+    }
