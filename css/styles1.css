@@ -127,7 +127,7 @@
 }
 
 .header{
-    background: var(--bs-black);
+    background: var(--bs-primary-border-subtle);
     position: fixed;
     width: 100%;
     display: flex;
@@ -164,7 +164,7 @@
 
 /*insertion du code css pour le positionnement de la class mainSection1*/
 .mainSection1{
-    background: rgb(150, 54, 100);
+    background: transparent;
     max-width: 80%;
     height: 60vh;
     display: flex;
@@ -189,6 +189,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    color: var(--bs-success-border-subtle);
     }
     
     .imgH2{
@@ -202,7 +203,7 @@
 
     /*mise en forme de la section .mainSection2*/
     .mainSection2{
-        background: var(--bs-blue);       
+        background: transparent;     
         }
      
     /*mise en forme de la classe enfant card1*/
@@ -235,7 +236,7 @@
     .mainCard{
         display: flex;
      max-width: 80%;
-     background: var(--bs-yellow);
+     background: transparent;
      /* align-items: center; */
      margin: 10px 10%;
      justify-content: space-evenly;
@@ -281,12 +282,13 @@
 
     /*insertion du style de la section 3*/
     .mainSection3{
-        background: var(--bs-blue);       
+        background: transparent;       
         }
      
     /*mise en forme de la classe enfant card1*/
     .h1{
-        background: var(--bs-green);
+        /* background: var(--bs-green); */
+        color: var(--bs-success-border-subtle);
         
         
     }
@@ -302,7 +304,7 @@
     
     /*mise en forme des h1*/
     .mainSection3 .divSection3 h1{
-        color: white;
+        color: var(--bs-primary-border-subtle);
         font-weight: bold;
         /* margin: 30px;*/
     }
@@ -311,7 +313,7 @@
     .divSection3{
         display: flex;
         max-width: 80%;
-        background: var(--bs-yellow);
+        background: transparent;
         margin: 10px 10%;
      justify-content: space-evenly;
      padding: 10px;
@@ -326,13 +328,13 @@
         padding: 2%;
          }
          .section3{
-            background: var(--bs-black);
+            background: transparent;
          }
 
          #logoItems{
             display: flex;
             flex-direction: column;
-            background: var(--bs-blue);
+            background: transparent;
             margin-bottom: 30px;
          }
 .logoItems .imgItems{
@@ -361,13 +363,13 @@
       /*insertion du style de la section4*/
 
     .mainSection4{
-        background: var(--bs-blue);
+        background: var(--bs-info-border-subtle);
     }
     .section4{
         display: flex;
         max-width: 80%;
         justify-content: space-between;
-        background: var(--bs-red);
+        background: transparent;
         padding: 10px;
         margin: 10px 10%;
     }
@@ -377,21 +379,22 @@
     }
     .h1PImg .h1P{
         display: flex;
-        background: var(--bs-blue);
+        background: transparent;
         flex-direction: column;
         padding: 10% 10px; 
         margin: 10px;
     }
 .h1P{
-    color: var(--bs-white);
+    color: var(--bs-black);
    
 }
 .h1P h1{
     margin: 50px;
+    color: var(--bs-cyan);
 }
 
 .card4{
-    background: var(--bs-yellow);
+    background: transparent;
     }
 
 .card41{
@@ -414,16 +417,29 @@ display: flex;
 
 /* z-index: 1; */
 }
-.card4 .decalag{
+.card4 .decalag {
     display: flex;
     flex-wrap: wrap;
+   
+    
+}
+.card4 .decalag h1{
+    display: flex;
+    flex-wrap: wrap;
+    color: var(--bs-success-border-subtle);
     
 }
 .card4 .decalag1{
     display: flex;
     flex-wrap: wrap;
-    
 }
+
+.card4 .decalag1 h1{
+    display: flex;
+    flex-wrap: wrap;
+    color: var(--bs-success-border-subtle);
+}
+
 
 .card41{
     margin: 60px auto;
@@ -442,7 +458,7 @@ display: flex;
     .cardSection4{
         /* width: 200px; */
         margin: 10px;
-        background-color: var(--bs-white);
+        background: var(--bs-white);
         display: flex;
         align-items: center;
         
@@ -481,6 +497,8 @@ flex-direction: column;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: var(--bs-success-border-subtle);
+    
 }
 .divSection5 p{
     padding-bottom: 30px;
